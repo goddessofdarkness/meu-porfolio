@@ -128,10 +128,13 @@
     color: #ffff;
   }
   .formacao .resumo {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .form-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+   .cursos li {
+    display: block; 
   }
 }
