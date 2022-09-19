@@ -84,7 +84,6 @@
   }
   .resumo {
   font-size: 1rem;
-  max-width: 30ch;
   }
   .exp-ano {
     position: initial;
@@ -96,5 +95,8 @@
 @media (max-width: 500px) {
   .exp-mais {
     grid-template-columns: 1fr;
+  }
+  .resumo {
+    max-width: 30ch;
   }
 }
