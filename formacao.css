@@ -1,4 +1,9 @@
 .formacao {
+  background: white;
+  position: relative;
+}
+
+.div {
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
