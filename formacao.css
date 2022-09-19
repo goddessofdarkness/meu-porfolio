@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.formacao::after {
+.div::after {
   content: "";
   display: block;
   width: 128px;
@@ -123,15 +123,15 @@
 }
 
 @media (max-width: 800px) {
-  .formacao {
+  .div {
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
   }
-  .formacao .sub {
+  .div .sub {
     color: #ffff;
   }
-  .formacao .resumo {
+  .div .resumo {
     font-size: 1rem;
   
   }
