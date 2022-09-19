@@ -129,6 +129,7 @@
   }
   .formacao .resumo {
     font-size: 1rem;
+    max-width: 35ch;
   }
   .form-extra h3::before {
     position: initial;
