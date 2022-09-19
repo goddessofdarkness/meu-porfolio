@@ -84,6 +84,7 @@
   }
   .resumo {
   font-size: 1rem;
+  max-width: 30ch;
   }
   .exp-ano {
     position: initial;
