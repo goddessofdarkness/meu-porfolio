@@ -134,7 +134,7 @@
   }
   .formacao .resumo {
     font-size: 1rem;
-    max-width: 35ch;
+  
   }
   .form-extra h3::before {
     position: initial;
@@ -142,5 +142,10 @@
   }
    .cursos li {
     display: block; 
+  }
+}
+@media (max-width: 400px) {
+    .formacao .resumo {
+    max-width: 35ch;
   }
 }
